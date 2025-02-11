@@ -1,10 +1,10 @@
 # Live-Internet-browsing-using-LLM 🚀
 
 
-## What it Solves 🧩:
+## What it Solves 
 This notebook demonstrates an intelligent agent system that answers user queries by combining internal knowledge and live web data. It efficiently handles queries that need up-to-date information from the internet.
 
-## Example 🌐:
+## Example 
 ### User query: 
 "What is square root of 25? and What is apple stock health on 22 Jan 2025"
 
@@ -29,7 +29,7 @@ This combination of factors indicates a challenging environment for Apple stock,
 If you have further questions or need more details, feel free to ask!
 
 
-## How it Works 🔧:
+## How it Works 🔧
 - **LangChain** powers the AI with GPT to generate responses.
 - **Tavily API** fetches relevant URLs when the agent needs to pull in live information.
 - **LangGraph** manages the flow, deciding when to answer directly and when to use the web.
@@ -39,7 +39,7 @@ If you have further questions or need more details, feel free to ask!
 2. **convert_html_to_markdown**: Converts HTML content into markdown format.
 3. **Flow**: The agent first tries to answer directly, then pulls information from the web when needed.
 
-## Flow Diagram 🔄:
+## Flow Diagram 🔄
 
 ### 1. **General Agent Node**:
    - The first step is to process the user query.
@@ -56,10 +56,10 @@ If you have further questions or need more details, feel free to ask!
    - It provides a complete, concise response to the user.
 
 
-## Conclusion 💡:
+## Conclusion 💡
 This system seamlessly combines pre-existing knowledge with real-time data, providing accurate answers by pulling from both internal and web sources.
 
-## Resources 📚:
+## Resources 📚
 - [LangGraph Tutorial - Introduction](https://langchain-ai.github.io/langgraph/tutorials/introduction/#requirements)
 - [LangGraph Tutorial - Multi-Agent Supervisor](https://langchain-ai.github.io/langgraph/tutorials/multi_agent/agent_supervisor/)
 - [Tavily API Python SDK - Search API Reference](https://docs.tavily.com/docs/python-sdk/tavily-search/api-reference)
