@@ -1,5 +1,7 @@
 # Live-Internet-browsing-using-LLM 🚀
 
+![image](https://github.com/user-attachments/assets/31adfa32-5d37-474a-9b75-f2840b0f098c)
+
 
 ## What it Solves 
 This notebook demonstrates an intelligent agent system that answers user queries by combining internal knowledge and live web data. It efficiently handles queries that need up-to-date information from the internet.
